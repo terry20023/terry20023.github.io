@@ -1,129 +1,117 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
-
 body {
-
-    padding: 30 px 40 px;
-    font - family: "Noto Sans TC";
+  padding: 50px 40px;
+  font-family: "Noto Sans TC";
 }
 
-a,
-a: hover,
-a: visited,
-a: active {
-    color: inherit;
+.noto-sans display-<uniquifier> {
+  font-family: "Noto Sans Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 3000;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 50;
+}
+
+a, a:hover, a:visited, a:active {
+  color: inherit;
 }
 
 .header {
-    margin - bottom: 20 px;
-    display: flex;
-    justify - content: space - between;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
 }
-
-@media screen and(max - width: 560 px) {
-    .header {
-        flex - direction: column;
-        gap: 15 px;
-    }
+@media screen and (max-width: 540px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 .info {
-    display: flex;
-    flex - direction: column;
-    align - items: flex - start;
-    gap: 5 px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
 }
-
-.info.name {
-    margin: 0;
-    color: #2E406F;
-    font-size: 24px;
-    font-weight: 700;
+.info .names {
+  margin: 0;
+  color: 	#007500;
+  font-size: 40px;
+  font-weight: 700;
 }
-
 .info p {
-    margin: 0;
-    font-size: 12px;
+  margin: 0;
+  font-size: 12px;
 }
-
 .info p i {
-    margin-right: 5px;
-    height: 100%;
-    width: 15px;
-    font-size: 15px;
+  margin-right: 5px;
+  height: 100%;
+  width: 15px;
+  font-size: 15px;
 }
-
 .info .born {
-    color: # 2E406 F;
+  color: #2E406F;
 }
 
-.avatar {
-    background - color: #000;
-    width: 120px;
-    height: 120px;
-    border: 1px solid # 333;
-    border - radius: 50 %;
-}
+
 
 .content {
-    display: flex;
-    gap: 30 px;
+  display: flex;
+  gap: 30px;
+}
+.content .col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
 }
 
-.content.col {
-    width: 100 %;
-    display: flex;
-    flex - direction: column;
-    align - items: flex - start;
-    gap: 10 px;
+@media screen and (max-width: 540px) {
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
-
-@media screen and(max - width: 540 px) {
-    .content {
-        flex - direction: column;
-        align - items: flex - start;
-    }
-}
-
-.section - title {
-    margin: 0;
-    color: #2E406F;
-    font-size: 16px;
-    font-weight: 700;
+.section-title {
+  margin: 0;
+  color: #01B468;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .line {
-    width: 100%;
-    height: 1px;
-    margin: 0;
-    background: # FFCD4D;
+  width: 100%;
+  height: 1px;
+  margin: 0;
+  background: #FFCD4D;
 }
 
-.item - card {
-    margin: 0;
-    display: flex;
-    flex - direction: column;
-    align - items: flex - start;
-    gap: 5 px;
+.BIG-card {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
 }
-
-.item - card.item - title {
-    margin: 0;
-    color: #1E1E1E;
-    font-size: 14px;
-    font-weight: 700;
+.BIG-card .item-title {
+  margin: 0;
+  color: #1E1E1E;
+  font-size: 20px;
+  font-weight: 700;
 }
-
-.item-card .item-date {
-    margin: 0;
-    color: # 2E406 F;
-    font - size: 12 px;
-    font - weight: 500;
+.BIG-card .item-date {
+  margin: 0;
+  color: #2E406F;
+  font-size: 16px;
+  font-weight: 500;
 }
-
-.item - card.item - detail {
-    margin: 0;
-    padding - left: 15 px;
-    color: #333;
-    font-size: 12px;
-    font-weight: 500;
-    </style>
+.BIG-card .item-detail {
+  margin: 0;
+  padding-left: 17px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
