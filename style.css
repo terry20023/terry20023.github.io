@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 body {
-  padding: 50px 40px;
+  padding: 60px 75px;
   font-family: "Noto Sans TC";
 }
 
@@ -18,7 +18,7 @@ a, a:hover, a:visited, a:active {
 }
 
 .header {
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   display: flex;
   justify-content: space-between;
 }
@@ -33,23 +33,23 @@ a, a:hover, a:visited, a:active {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 9px;
+  gap: 14px;
 }
 .info .names {
   margin: 0;
-  color: 	#007500;
+  color: #009999	;
   font-size: 40px;
   font-weight: 700;
 }
 .info p {
   margin: 0;
-  font-size: 12px;
+  font-size: 16px;
 }
 .info p i {
-  margin-right: 5px;
+  margin-right: 1px;
   height: 100%;
-  width: 15px;
-  font-size: 15px;
+  width: 16px;
+  font-size: 13px;
 }
 .info .born {
   color: #2E406F;
@@ -59,14 +59,14 @@ a, a:hover, a:visited, a:active {
 
 .content {
   display: flex;
-  gap: 30px;
+  gap: 300px;
 }
 .content .col {
-  width: 100%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 13px;
+  gap: 12px;
 }
 
 @media screen and (max-width: 540px) {
@@ -94,7 +94,7 @@ a, a:hover, a:visited, a:active {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
+  gap: 20px;
 }
 .BIG-card .item-title {
   margin: 0;
@@ -105,7 +105,7 @@ a, a:hover, a:visited, a:active {
 .BIG-card .item-date {
   margin: 0;
   color: #2E406F;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
 }
 .BIG-card .item-detail {
